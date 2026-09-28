@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Предложение нового опроса</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Панель создания и предложения новых опросов</h1>
+        <div>
+            <img src="images/Gemini_Generated_Image_jyo2s8jyo2s8jyo2.jpg" alt="Лого сайта"/>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="page2.html">Каталог опросов</a></li>
+                <li><a href="page3.html">Статистика опросов</a></li>
+                <li><a href="page4.html">Предложения новых опросов</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Форма предложения нового опроса</h2>
+            <form>
+                <label for="poll-title">Тема / Заголовок опроса:</label><br>
+                <input type="text" id="poll-title" name="poll-title" placeholder="Введите тему опроса"><br><br>
+                <label for="poll-category">Категория:</label><br>
+                <select id="poll-category" name="poll-category">
+                    <option value="lifestyle">Образ жизни</option>
+                    <option value="tech">Технологии</option>
+                    <option value="media">Развлечения и Медиа</option>
+                    <option value="education">Образование</option>
+                </select><br><br>
+                <label for="option1">Вариант ответа 1:</label><br>
+                <input type="text" id="option1" name="option1"><br><br>
+                <label for="option2">Вариант ответа 2:</label><br>
+                <input type="text" id="option2" name="option2"><br><br>
+                <label for="option3">Вариант ответа 3:</label><br>
+                <input type="text" id="option3" name="option3"><br><br>
+                <label for="option4">Вариант ответа 4:</label><br>
+                <input type="text" id="option4" name="option4"><br><br>
+                <button type="button">Отправить на модерацию</button>
+            </form>
+        </section>
+        <section>
+            <h2>Недавно предложенные темы опросов</h2>
+            <ul>
+                <li><b>Любимый жанр видеоигр</b> — <i>Категория: Развлечения</i> (Статус: На рассмотрении)</li>
+                <li><b>Предпочитаемый вид кофе</b> — <i>Категория: Образ жизни</i> (Статус: Одобрен)</li>
+                <li><b>Частота использования ИИ в учебе</b> — <i>Категория: Технологии</i> (Статус: На рассмотрении)</li>
+            </ul>
+            <p><b>Всего предложено опросов за месяц:</b> 28</p>
+        </section>
+    </main>
+</body>
+</html>
